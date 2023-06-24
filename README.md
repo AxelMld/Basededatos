@@ -193,7 +193,7 @@ DHTesp dhtSensor;
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 const char* mqtt_server = "44.195.202.69";
-String username_mqtt="AXELM";
+String username_mqtt="axelm";
 String password_mqtt="1234";
 
 WiFiClient espClient;
