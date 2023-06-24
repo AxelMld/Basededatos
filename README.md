@@ -342,7 +342,7 @@ long t; //timepo que demora en llegar el eco
     Serial.print("Publish message: ");
     Serial.println(output);
     Serial.println(output.c_str());
-    client.publish("DAIyM/AxelM/P8", output.c_str());
+    client.publish("axelm", output.c_str());
   }
 }
 
